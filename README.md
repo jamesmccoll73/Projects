@@ -8,8 +8,8 @@ Wrote and implemented own version of Binary Search Trees and AVL trees, used the
 
 **Explaination:** The input file (whose name is passed in at the command line) will have three parameters: how many classes there are, how many students there are, and how many timeslots are available for exams. Each successive line will have the name of a student followed by the class numbers that the student is in. The best possible exam schedule is then output in the terminal, with "No Valid Exam Schedule" being outputted if there is no possible way to avoid conflicts with the alloted amount of timeslots.
 
-**Example input:**
-10 7 6                      //10 classes, 7 students, 6 timeslots 
+**Example input:** <br />
+10 7 6                      //10 classes, 7 students, 6 timeslots <br />
 aaron 104 170 101 350      //student and their class numbers  <br />
 leia 104 170 350 270 <br />
 jarjar 101 310 104 <br />
@@ -18,7 +18,7 @@ jon 101 350 270 310 <br />
 lebron 360 481 101 340 <br />
 amanda 340 350 360 310 <br />
 
-**Example output:**
+**Example output:** <br />
 Section 1: 104, 242, 481 <br />
 Section 2: 170, 310 <br />
 Section 3: 101 <br />
