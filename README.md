@@ -11,12 +11,12 @@ Wrote and implemented own version of Binary Search Trees and AVL trees, used the
 **Example input:** <br />
 10 7 6                       (10 classes, 7 students, 6 exam timeslots) <br />
 aaron 104 170 101 350      //student and their class numbers  <br />
-leia 104 170 350 270 <br />
-jarjar 101 310 104 <br />
-finn 270 350 242 360 <br />
-jon 101 350 270 310 <br />
-lebron 360 481 101 340 <br />
-amanda 340 350 360 310 <br />
+david 104 170 350 270 <br />
+katie 101 310 104 <br />
+brook 270 350 242 360 <br />
+james 101 350 270 310 <br />
+riley 360 481 101 340 <br />
+megan 340 350 360 310 <br />
 
 **Example output:** <br />
 Section 1: 104, 242, 481 <br />
