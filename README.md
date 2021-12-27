@@ -1,4 +1,4 @@
-###Hello! These are some projects I have been working on. There is a short description of each project below, with a longer description of each project in the README.md of each of their specific folders.
+### Hello! These are some projects I have been working on. There is a short description of each project below, with a longer description of each project in the README.md of each of their specific folders.
 
 **basicLanguage:** Implements an interpreter for a limited version of the programming language BASIC
 
