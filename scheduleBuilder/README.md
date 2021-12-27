@@ -2,8 +2,6 @@
 
 **Function:** Takes all possible timeslots of the classes the user wants to take and outputs all possible schedule combinations, ensuring that 1) there are no conflicts between classes and 2) Any lectures that are paired to specific discussions are still paired
 
-**Explaination:** The input file (whose name is passed in at the command line) will have three parameters: how many classes there are, how many students there are, and how many timeslots are available for exams. Each successive line will have the name of a student followed by the class numbers that the student is in. The best possible exam schedule is then output in the terminal, with "No Valid Exam Schedule" being outputted if there is no possible way to avoid conflicts with the alloted amount of timeslots.
-
 **Example input:** <br />
 6   //total number of classes<br />
 BAEP460 M 600pm-750pm   //Class name and the all times it's offered (Monday from 6:00pm-7:50pm) <br />
