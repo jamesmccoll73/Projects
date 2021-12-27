@@ -1,3 +1,5 @@
+## wordPermutations:
+
 **Function:** Takes a word and uses recursion to output all possible arrangements of the letters within that word
 
 **Example input:** <br />
