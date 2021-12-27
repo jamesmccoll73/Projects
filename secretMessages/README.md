@@ -1,3 +1,5 @@
+## secretMessages:
+
 **Function:** Uses rsa encryption and decryption to pass secret messages through files 
 
 **Explaination of the Commands** 
