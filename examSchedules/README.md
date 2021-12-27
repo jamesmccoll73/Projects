@@ -1,4 +1,4 @@
-## examScheduler.cpp:
+## examSchedules:
 
 **Function:** Takes the schedules of multiple different students and yields an exam schedule where no student will have two exams at the same time
 
