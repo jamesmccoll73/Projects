@@ -1,27 +1,19 @@
-## bst.h, avlbst.h, print_bst.h:
-Wrote and implemented own version of Binary Search Trees and AVL trees, used these self-implemented trees to keep track of classes in examScheduler (explained below)
+###Hello! These are some projects I have been working on. There is a short description of each project below, with a longer description of each project in the README.md of each of their specific folders.
 
+**basicLanguage:** Implements an interpreter for a limited version of the programming language BASIC
 
-## examScheduler.cpp:
+**birthdayProblem:** Implements a self-written hashtable and uses it to test the birthday paradox: it only takes an average of 23 people until you have a greater than 50% chance to pick two people with the same birthday. 
 
-**Function:** Takes the schedules of multiple different students and yields an exam schedule where no student will have two exams at the same time
+**companyMerger:** Keeps track of different companies, allowing the user to merge companies (creating a new, mega company) and split companies (returning all the companies in this mega company to their state right before the previous merge)
 
-**Explaination:** The input file (whose name is passed in at the command line) will have three parameters: how many classes there are, how many students there are, and how many timeslots are available for exams. Each successive line will have the name of a student followed by the class numbers that the student is in. The best possible exam schedule is then output in the terminal, with "No Valid Exam Schedule" being outputted if there is no possible way to avoid conflicts with the alloted amount of timeslots.
+**doubletGame:** Implements a self-written MinHeap, uses this MinHeap to play Lewis Carl's Doublet game. 
 
-**Example input:** <br />
-10 7 6                       (10 classes, 7 students, 6 exam timeslots) <br />
-aaron 104 170 101 350      //student and their class numbers  <br />
-david 104 170 350 270 <br />
-sarah 101 310 104 <br />
-brook 270 350 242 360 <br />
-james 101 350 270 310 <br />
-henry 360 481 101 340 <br />
-ethan 340 350 360 310 <br />
+**examSchedules:** Implements a self-written Binary Search Tree and AVL tree, uses these trees to keep track of classes in examScheduler, which takes the schedules of multiple different students and yields an exam schedule where no student will have two exams at the same time
 
-**Example output:** <br />
-Section 1: 104, 242, 481 <br />
-Section 2: 170, 310 <br />
-Section 3: 101 <br />
-Section 4: 350 <br />
-Section 5: 270, 340 <br />
-Section 6: 360 <br />
+**scheduleBuilder:** Takes all possible timeslots of the classes the user wants to take and outputs all possible schedule combinations, ensuring that 1) there are no conflicts between classes and 2) Any lectures that are paired to specific discussions are still paired
+
+**secretMessages:** 
+Uses rsa encryption and decryption to pass secret messages through files
+
+**wordPermutations:** Takes a word and uses recursion to output all possible arrangements of the letters within that word
+
