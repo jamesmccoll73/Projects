@@ -1,3 +1,5 @@
+## companyMerger:
+
 **Function:** Keeps track of different companies (represented by integers), allowing the user to merge companies (creating a new, mega company) and split companies (returning all the companies in this mega company to their state right before the previous merge)
 
 **Syntax:** <br />
